@@ -26,7 +26,7 @@
   </div>
 {% highlight scss %}
 @gray-darker:  lighten(#000, 13.5%); // #222
-@gray-dark:    lighten(#000, 20%);   // #333
+@gray-dark:    lighten(#000, 20%);   // #fff
 @gray:         lighten(#000, 33.5%); // #555
 @gray-light:   lighten(#000, 46.7%); // #777
 @gray-lighter: lighten(#000, 93.5%); // #eee
@@ -366,22 +366,22 @@ a {
   <h3 id="less-mixins-gradients">Gradients</h3>
   <p>Easily turn any two colors into a background gradient. Get more advanced and set a direction, use three colors, or use a radial gradient. With a single mixin you get all the prefixed syntaxes you'll need.</p>
 {% highlight scss %}
-#gradient > .vertical(#333; #000);
-#gradient > .horizontal(#333; #000);
-#gradient > .radial(#333; #000);
+#gradient > .vertical(#fff; #000);
+#gradient > .horizontal(#fff; #000);
+#gradient > .radial(#fff; #000);
 {% endhighlight %}
   <p>You can also specify the angle of a standard two-color, linear gradient:</p>
 {% highlight scss %}
-#gradient > .directional(#333; #000; 45deg);
+#gradient > .directional(#fff; #000; 45deg);
 {% endhighlight %}
   <p>If you need a barber-stripe style gradient, that's easy, too. Just specify a single color and we'll overlay a translucent white stripe.</p>
 {% highlight scss %}
-#gradient > .striped(#333; 45deg);
+#gradient > .striped(#fff; 45deg);
 {% endhighlight %}
   <p>Up the ante and use three colors instead. Set the first color, the second color, the second color's color stop (a percentage value like 25%), and the third color with these mixins:</p>
 {% highlight scss %}
-#gradient > .vertical-three-colors(#777; #333; 25%; #000);
-#gradient > .horizontal-three-colors(#777; #333; 25%; #000);
+#gradient > .vertical-three-colors(#777; #fff; 25%; #000);
+#gradient > .horizontal-three-colors(#777; #fff; 25%; #000);
 {% endhighlight %}
   <p><strong>Heads up!</strong> Should you ever need to remove a gradient, be sure to remove any IE-specific <code>filter</code> you may have added. You can do that by using the <code>.reset-filter()</code> mixin alongside <code>background-image: none;</code>.</p>
 

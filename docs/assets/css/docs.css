@@ -211,7 +211,7 @@
 }
 .highlight pre code {
   font-size: inherit;
-  color: #333;
+  color: #fff;
 }
 .highlight pre code:first-child {
   display: inline-block;
@@ -526,7 +526,7 @@
   margin-bottom: 5px;
   font-size: 30px;
   font-weight: 400;
-  color: #333;
+  color: #fff;
 }
 .half-rule {
   width: 100px;
@@ -535,12 +535,12 @@
 .bs-docs-featurette h3 {
   margin-bottom: 5px;
   font-weight: 400;
-  color: #333;
+  color: #fff;
 }
 .bs-docs-featurette-img {
   display: block;
   margin-bottom: 20px;
-  color: #333;
+  color: #fff;
 }
 .bs-docs-featurette-img:hover {
   color: #337ab7;
@@ -1049,7 +1049,7 @@
   background-color: #222;
 }
 .color-swatches .gray-dark {
-  background-color: #333;
+  background-color: #fff;
 }
 .color-swatches .gray {
   background-color: #555;
@@ -1092,7 +1092,7 @@
   color: #555;
 }
 .bs-team .team-member:hover {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 .bs-team .github-btn {
@@ -1303,7 +1303,7 @@
 .bs-dropzone .lead {
   margin-bottom: 10px;
   font-weight: 400;
-  color: #333;
+  color: #fff;
 }
 #import-manual-trigger {
   cursor: pointer;
